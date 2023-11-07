@@ -1,0 +1,380 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-page-wrapper {
+    background: url("./img/1\ \(1\).png") center top no-repeat;
+}
+
+body{
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+address{
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5 ,p{
+    margin: 0%;
+}
+
+button {
+    background: transparent;
+    padding: 0%;
+    border: 1px solid transparent;
+}
+
+.wrapper {
+    background: #001821;
+    color: #fff;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    position: relative;
+}
+
+.logo, .menu, .contacts {
+    position: absolute
+}
+
+.logo {
+    display: block;
+    top: 29px;
+}
+
+.menu {
+    top: 42px;
+    left: 164px;
+    
+}
+
+.contacts {
+    top: 26.64px;
+    right: 0;
+    text-align: right;
+}
+
+.menu__item{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu__item:last-child{
+    margin-right: 0%;
+}
+
+.menu__link {
+    font-size: 14px;
+}
+
+.menu__link:hover {
+    color: red;
+}
+
+.contacts__tel {
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.contacts__graph {
+    font-size: 13px;
+}
+
+.preview{
+    margin-top: 95px;
+}
+
+.preview__titel{
+    font-size: 72px;
+    text-align: left;
+    width: 511px;
+    height: 197px;
+}
+
+.preview__info{
+    margin: 30px 0px;
+    font-size: 18px;
+}
+.button {
+    background: red;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 35px;
+    padding: 18px 42px;
+    cursor: pointer;
+    }  
+
+.button:hover{
+    box-shadow: 0 0 20px 0 red;
+}
+
+.tours{
+    margin-top: 245px;
+    
+}
+
+.tours__titel{
+    font-size: 24px;
+    font-weight: 700;
+    display: inline-block;
+    
+}
+
+.tours__titel-text{
+    display: inline-block;
+}
+
+.tours__titel-icon{
+    display: inline-block;
+    margin-left: 9px;
+}
+
+.tours__list{
+    margin-top: 50px;
+}
+
+.tours__subtitle{
+    font-size: 24px;
+    margin-top: -3px;
+}
+
+.tours__options {
+    margin-top: 21px;
+}
+
+.tours__option-item{
+    display: inline-block;
+    margin-left: 8px;
+}
+.tours__option-text{
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.tours__info{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 29px;
+}
+
+.tours__item {
+    background: #fff;
+    color: black;
+    display: inline-block;
+    width: 359px;
+    margin-right: 27px;
+}
+
+.tours__image{
+    background: #001821;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tours__item:last-child {
+    margin-right: 0%;
+}
+
+.tours__content {
+    padding: 33px 22px 26px 22px;
+}
+
+.button--border{
+    background: none;
+    color: red;
+    border-color: red;
+}
+
+.news{
+    margin-top: 127px;
+    margin-bottom: 55px;
+}
+
+.news__titel{
+    font-size: 36px;
+}
+
+.news__list {
+    margin-top: 51px;
+}
+.news__image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.news__content {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 25px 30px;
+    min-height: 14px;
+    
+}
+
+.news__item {
+    display: inline-block;
+    width: 555px;
+    vertical-align: top;
+    margin-right: 25px;
+    position: relative;
+}
+
+.news__item:last-child {
+    margin-right: 0;
+}
+.news__date{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.news__subtitel{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.news__text{
+    font-size: 16px;
+}
+
+.paginator {
+    margin-top: 57px;
+    text-align: center;
+}
+
+.paginator__display, .paginator__list, .paginator__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.paginator__display{
+    margin-right: 26px;
+}
+
+.paginator__link{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background: transparent;
+    border-radius: 50%;
+    line-height: 32px;
+    color: floralwhite ;
+    transition: 1s;
+    font-weight: 700;
+}
+
+.paginator__link:hover {
+    color: red;
+    background: #fff;
+}
+
+.about{
+   margin-top: 142px;
+}
+.about__image{
+    display: inline-block;
+    width: 490px;
+    height: 505px;
+    vertical-align: top;
+}
+
+.about__content{
+    display: inline-block;
+    color: black;
+    width: 745px;
+    padding: 70px 50px 65px 50px;
+    margin-top: 100px;
+    margin-left: -100px;
+    vertical-align: top;
+    position: relative;
+}
+
+.about__background {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 105%;
+    height: 100%;
+}
+
+.about__titel {
+    position: relative;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.about__text {
+    position: relative;
+    padding-top: 43px;
+    padding-right: 144px;
+    line-height: 26px;
+}
+
+.about__button {
+    position: relative;
+    padding-top: 42px;
+}
+
+.socials__list {
+    position: absolute;
+    top: 33px;
+    right: 260px;
+
+}
+.social__item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.social__item:last-child{
+    margin-right: 0;
+}
+.social__link{
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+}
+
+.footer {
+    margin-top: 75px;
+    height: 152px;
+    position: relative;
+}
+
+.contacts__free-call {
+    font-size: 11px;
+}
+.first-block {
+    margin-bottom: 20px;
+}
